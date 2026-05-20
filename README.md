@@ -160,6 +160,3 @@ python gem_inversion_xyz_export.py inverted.csv -o inverted_xyz_long.csv
 * Auken, E. & Christiansen, A.V. (2004). *Layered and laterally constrained
   2D inversion of resistivity data*. Geophysics, 69(3): 752–761 — LCI scheme.
 
-## License
-
-[MIT](LICENSE) — Jude King, 2026.
