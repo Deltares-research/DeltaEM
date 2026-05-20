@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.python-version
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Local data and outputs ---
+# Don't commit field data, intermediate CSVs/XYZs, inversion outputs or plots.
+# Put samples in `examples/` and add them explicitly if you really want them in
+# the repo.
+*.xyz
+*.csv
+*.tif
+*.tiff
+*.png
+*.jpg
+*.pdf
+!examples/**/*.xyz
+!examples/**/*.csv
+!docs/**/*.png
+!docs/**/*.jpg

@@ -1,0 +1,19 @@
+# Core scientific Python stack
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.9
+
+# Streamlit UI
+streamlit>=1.40
+
+# SimPEG inversion stack
+# `simpeg` pulls in `discretize`, `pymatsolver`, `geoana`, `empymod`, etc.,
+# but we pin the two we import directly so resolution stays predictable.
+simpeg>=0.25
+discretize>=0.12
+
+# Optional: required only when sampling sensor elevation from a GeoTIFF DEM
+# (gem2_simpeg_invert.py --dem-path / Streamlit "DEM" tab). Comment out if
+# rasterio's native wheels cause install trouble on your platform.
+rasterio>=1.4
