@@ -2,7 +2,7 @@
 
 [License: MIT](https://choosealicense.com/licenses/mit) [Lifecycle: experimental](https://lifecycle.r-lib.org/articles/stages.html) [Formatting: ruff](https://github.com/astral-sh/ruff)
 
-<img src="deltaem_logo.png" alt="DeltaSEIS Logo" width="100" align="left">
+<img src="deltaem_logo.svg" alt="DeltaEM Logo" width="100" align="left">
 
 The Deltares Electromagnetics (DeltaEM) package provides 1D and laterally
 constrained (LCI) SimPEG inversion for [GEM-2](https://geophex.com/gem-2/)
