@@ -1,6 +1,8 @@
 # DeltaEM
 
-[License: MIT](https://choosealicense.com/licenses/mit) [Lifecycle: experimental](https://lifecycle.r-lib.org/articles/stages.html) [Formatting: ruff](https://github.com/astral-sh/ruff)
+[![License: MIT](https://img.shields.io/pypi/l/imod)](https://choosealicense.com/licenses/mit)
+[![Lifecycle: experimental](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![Formatting: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 <img src="deltaem_logo.svg" alt="DeltaEM Logo" width="100" align="left">
 
