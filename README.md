@@ -1,16 +1,20 @@
-# gem2-inversion
+# DeltaEM
 
-1D and laterally-constrained (LCI) SimPEG inversion of [GEM-2](https://geophex.com/gem-2/)
-frequency-domain electromagnetic data, wrapped in a Streamlit GUI.
+[License: MIT](https://choosealicense.com/licenses/mit) [Lifecycle: experimental](https://lifecycle.r-lib.org/articles/stages.html) [Formatting: ruff](https://github.com/astral-sh/ruff)
 
-The app reads a GEM-2 CSV or XYZ file, stacks soundings along each line, runs a
-per-sounding `simpeg.electromagnetics.frequency_domain.Simulation1DLayered`
-inversion (or a full-line LCI on top of `simpeg.meta.MetaSimulation`), and
-returns recovered conductivity layers, per-channel misfit, a Christiansen &
-Auken depth-of-investigation (DOI), and section / sounding / map plots.
+<img src="deltaem_logo.png" alt="DeltaSEIS Logo" width="100" align="left">
 
-Every sidebar control maps 1:1 to a CLI flag on the underlying scripts, so
-anything you can dial in here you can also script in batch.
+The Deltares Electormagnetics (DeltaEM) package provides 1D and laterally
+constrained (LCI) SimPEG inversion for [GEM-2](https://geophex.com/gem-2/)
+frequency-domain electromagnetic data, with both a Streamlit GUI and
+scriptable CLI workflows.
+
+It reads GEM-2 CSV/XYZ input, stacks soundings by line, runs per-sounding or
+full-line inversion, and returns conductivity layers, channel misfit,
+Christiansen & Auken depth-of-investigation (DOI), and section/sounding/map
+outputs.
+
+<br clear="left"/>
 
 ## Quick start
 
