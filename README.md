@@ -4,7 +4,7 @@
 
 <img src="deltaem_logo.png" alt="DeltaSEIS Logo" width="100" align="left">
 
-The Deltares Electormagnetics (DeltaEM) package provides 1D and laterally
+The Deltares Electromagnetics (DeltaEM) package provides 1D and laterally
 constrained (LCI) SimPEG inversion for [GEM-2](https://geophex.com/gem-2/)
 frequency-domain electromagnetic data, with both a Streamlit GUI and
 scriptable CLI workflows.
